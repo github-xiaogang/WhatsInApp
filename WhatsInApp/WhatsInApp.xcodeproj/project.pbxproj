@@ -1,0 +1,1120 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B184A2D1A4E7FD900BF8DF9 /* WIAppFileSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184A2B1A4E7FD900BF8DF9 /* WIAppFileSystemViewController.m */; };
+		1B184A311A4E956100BF8DF9 /* WIAppFileSystemItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184A301A4E956100BF8DF9 /* WIAppFileSystemItem.m */; };
+		1B184A441A4EA5E500BF8DF9 /* WhatsInApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184A431A4EA5E500BF8DF9 /* WhatsInApp.m */; };
+		1B184A481A4EA61B00BF8DF9 /* WIAppLongPressTriggerGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184A471A4EA61B00BF8DF9 /* WIAppLongPressTriggerGestureRecognizer.m */; };
+		1B184A4C1A4EA91C00BF8DF9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184A4A1A4EA91C00BF8DF9 /* TestViewController.m */; };
+		1B184A4D1A4EA91C00BF8DF9 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B184A4B1A4EA91C00BF8DF9 /* TestViewController.xib */; };
+		1B184AB51A4EB29800BF8DF9 /* WhatsInApp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B184A421A4EA5E500BF8DF9 /* WhatsInApp.h */; };
+		1B184AF91A4EDB1000BF8DF9 /* WIAppModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184AF81A4EDB1000BF8DF9 /* WIAppModule.m */; };
+		1B184AFC1A4EDB9F00BF8DF9 /* WIAppLocalNotificationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184AFB1A4EDB9F00BF8DF9 /* WIAppLocalNotificationModule.m */; };
+		1B184B051A4EDF5200BF8DF9 /* WIAppUserDefaultsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184B041A4EDF5200BF8DF9 /* WIAppUserDefaultsModule.m */; };
+		1B184B081A4EE0E900BF8DF9 /* WIAppKeyChainModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184B071A4EE0E900BF8DF9 /* WIAppKeyChainModule.m */; };
+		1B4F78FA1A4C31B700D6C968 /* WIAppSystemUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F78F91A4C31B700D6C968 /* WIAppSystemUtil.m */; };
+		1B4F78FF1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F78FD1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.m */; };
+		1B4F791E1A4C384F00D6C968 /* WIAppPropertyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F791D1A4C384F00D6C968 /* WIAppPropertyCell.m */; };
+		1B4F79241A4C397000D6C968 /* WIAppConstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F79231A4C397000D6C968 /* WIAppConstance.m */; };
+		1B4F792C1A4C3ECC00D6C968 /* WIAppProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F792B1A4C3ECC00D6C968 /* WIAppProperty.m */; };
+		1B4F79421A4C513B00D6C968 /* WIAppWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F79401A4C513B00D6C968 /* WIAppWebViewController.m */; };
+		1B5BBD401A518831009A0025 /* beauty_header@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B5BBD3D1A518831009A0025 /* beauty_header@2x.jpg */; };
+		1B5BBD411A518831009A0025 /* login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5BBD3E1A518831009A0025 /* login@2x.png */; };
+		1B5BBD461A519521009A0025 /* DXPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BBD451A519521009A0025 /* DXPopover.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1B6210401A4BFAC200D12C0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B62103F1A4BFAC200D12C0D /* main.m */; };
+		1B6210431A4BFAC200D12C0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6210421A4BFAC200D12C0D /* AppDelegate.m */; };
+		1B6210461A4BFAC200D12C0D /* WIAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6210451A4BFAC200D12C0D /* WIAViewController.m */; };
+		1B62104B1A4BFAC200D12C0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B62104A1A4BFAC200D12C0D /* Images.xcassets */; };
+		1B6210791A4C2CF000D12C0D /* WIAppLocalNotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6210751A4C2CF000D12C0D /* WIAppLocalNotificationCell.m */; };
+		1B62107A1A4C2CF000D12C0D /* WIAppLocalNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6210771A4C2CF000D12C0D /* WIAppLocalNotificationViewController.m */; };
+		1BBCDDEE1A52CB3800B6D714 /* WIAppKVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDDE51A52CB3800B6D714 /* WIAppKVCell.m */; };
+		1BBCDDF01A52CB3800B6D714 /* WIAppKVFormatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDDE81A52CB3800B6D714 /* WIAppKVFormatViewController.m */; };
+		1BBCDDF21A52CB3800B6D714 /* WIAppKVModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDDEB1A52CB3800B6D714 /* WIAppKVModel.m */; };
+		1BBCDDF31A52CB3800B6D714 /* WIAppKVViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDDED1A52CB3800B6D714 /* WIAppKVViewModel.m */; };
+		1BBCDDF71A52D12200B6D714 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1BBCDDF61A52D12200B6D714 /* config.xml */; };
+		1BBCDDF91A52DABA00B6D714 /* document.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BBCDDF81A52DABA00B6D714 /* document.json */; };
+		1BBCDDFE1A52DE6400B6D714 /* libMMMarkdown-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBCDDFD1A52DE6400B6D714 /* libMMMarkdown-iOS.a */; };
+		1BBCDE051A52E16600B6D714 /* aa.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 1BBCDE031A52E10900B6D714 /* aa.markdown */; };
+		1BC8B8AB1A539D1A00844BF0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC8B8AA1A539D1A00844BF0 /* libsqlite3.dylib */; };
+		1BC8B8AD1A53A36100844BF0 /* test.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8B8AC1A53A24B00844BF0 /* test.sqlite */; };
+		1BC8B8B91A53B85600844BF0 /* EGODatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8B8B01A53B85600844BF0 /* EGODatabase.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1BC8B8BA1A53B85600844BF0 /* EGODatabaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8B8B21A53B85600844BF0 /* EGODatabaseRequest.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1BC8B8BB1A53B85600844BF0 /* EGODatabaseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8B8B51A53B85600844BF0 /* EGODatabaseResult.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1BC8B8BC1A53B85600844BF0 /* EGODatabaseRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8B8B81A53B85600844BF0 /* EGODatabaseRow.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1BC8B8C91A53CD1E00844BF0 /* WIAppSqliteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8B8C41A53CD1E00844BF0 /* WIAppSqliteViewController.m */; };
+		1BC8B8CF1A53CD8700844BF0 /* WIAppFileSystemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8B8CE1A53CD8700844BF0 /* WIAppFileSystemCell.m */; };
+		1BD3585F1A5504F80039443D /* WhatsInApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184A431A4EA5E500BF8DF9 /* WhatsInApp.m */; };
+		1BD358601A5504F80039443D /* WIAppLongPressTriggerGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184A471A4EA61B00BF8DF9 /* WIAppLongPressTriggerGestureRecognizer.m */; };
+		1BD358611A5504F80039443D /* WIAppWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F79401A4C513B00D6C968 /* WIAppWebViewController.m */; };
+		1BD358621A5504F80039443D /* WIAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC3B1A53E52200689A8C /* WIAppViewController.m */; };
+		1BD358631A5504F80039443D /* WIAppPropertyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F791D1A4C384F00D6C968 /* WIAppPropertyCell.m */; };
+		1BD358641A5504F80039443D /* WIAppGeneralTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC3E1A53E56000689A8C /* WIAppGeneralTableCell.m */; };
+		1BD358651A5504F80039443D /* WIAppProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F792B1A4C3ECC00D6C968 /* WIAppProperty.m */; };
+		1BD358661A5504F80039443D /* WIAppModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184AF81A4EDB1000BF8DF9 /* WIAppModule.m */; };
+		1BD358671A5504F80039443D /* WIAppConstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F79231A4C397000D6C968 /* WIAppConstance.m */; };
+		1BD358681A5504F80039443D /* WIAppAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC381A53E2CF00689A8C /* WIAppAppearance.m */; };
+		1BD358691A5504F80039443D /* WIAppSqliteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8B8C41A53CD1E00844BF0 /* WIAppSqliteViewController.m */; };
+		1BD3586B1A5504F80039443D /* WIAppKVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDDE51A52CB3800B6D714 /* WIAppKVCell.m */; };
+		1BD3586C1A5504F80039443D /* WIAppKVFormatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDDE81A52CB3800B6D714 /* WIAppKVFormatViewController.m */; };
+		1BD3586D1A5504F80039443D /* WIAppKVModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDDEB1A52CB3800B6D714 /* WIAppKVModel.m */; };
+		1BD3586E1A5504F80039443D /* WIAppKVViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDDED1A52CB3800B6D714 /* WIAppKVViewModel.m */; };
+		1BD3586F1A5504F80039443D /* WIAppKVUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC411A53E65B00689A8C /* WIAppKVUtil.m */; };
+		1BD358701A5504F80039443D /* FS_KA_Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC451A53E7BB00689A8C /* FS_KA_Constants.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1BD358711A5504F80039443D /* FS_KA_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC471A53E7BB00689A8C /* FS_KA_Helper.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1BD358721A5504F80039443D /* EGODatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8B8B01A53B85600844BF0 /* EGODatabase.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1BD358731A5504F80039443D /* EGODatabaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8B8B21A53B85600844BF0 /* EGODatabaseRequest.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1BD358741A5504F80039443D /* EGODatabaseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8B8B51A53B85600844BF0 /* EGODatabaseResult.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1BD358751A5504F80039443D /* EGODatabaseRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8B8B81A53B85600844BF0 /* EGODatabaseRow.m */; };
+		1BD358761A5504F80039443D /* DXPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BBD451A519521009A0025 /* DXPopover.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1BD358771A5504F80039443D /* WIAppSystemUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F78F91A4C31B700D6C968 /* WIAppSystemUtil.m */; };
+		1BD358781A5504F80039443D /* WIAppFileSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184A2B1A4E7FD900BF8DF9 /* WIAppFileSystemViewController.m */; };
+		1BD358791A5504F80039443D /* WIAppFileSystemItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184A301A4E956100BF8DF9 /* WIAppFileSystemItem.m */; };
+		1BD3587A1A5504F80039443D /* WIAppFileSystemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8B8CE1A53CD8700844BF0 /* WIAppFileSystemCell.m */; };
+		1BD3587B1A5504F80039443D /* WIAppKeyChainModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184B071A4EE0E900BF8DF9 /* WIAppKeyChainModule.m */; };
+		1BD3587C1A5504F80039443D /* WIAppUserDefaultsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184B041A4EDF5200BF8DF9 /* WIAppUserDefaultsModule.m */; };
+		1BD3587D1A5504F80039443D /* WIAppLocalNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6210771A4C2CF000D12C0D /* WIAppLocalNotificationViewController.m */; };
+		1BD3587E1A5504F80039443D /* WIAppLocalNotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6210751A4C2CF000D12C0D /* WIAppLocalNotificationCell.m */; };
+		1BD3587F1A5504F80039443D /* WIAppLocalNotificationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F78FD1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.m */; };
+		1BD358801A5504F80039443D /* WIAppLocalNotificationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184AFB1A4EDB9F00BF8DF9 /* WIAppLocalNotificationModule.m */; };
+		1BD358811A5504F80039443D /* WIAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6210451A4BFAC200D12C0D /* WIAViewController.m */; };
+		1BD358841A550D440039443D /* libMMMarkdown-iOS.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BBCDDFD1A52DE6400B6D714 /* libMMMarkdown-iOS.a */; };
+		1BD3589F1A5511480039443D /* WhatsInAppResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BD3589E1A5511480039443D /* WhatsInAppResource.bundle */; };
+		1BD358A11A55121B0039443D /* WhatsInAppResource.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD3589E1A5511480039443D /* WhatsInAppResource.bundle */; };
+		1BD358AE1A5515DA0039443D /* WIAppWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4F79411A4C513B00D6C968 /* WIAppWebViewController.xib */; };
+		1BD358AF1A5515DA0039443D /* WIAppPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4F791F1A4C385D00D6C968 /* WIAppPropertyCell.xib */; };
+		1BD358B01A5515DA0039443D /* WIAppSqliteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8B8C51A53CD1E00844BF0 /* WIAppSqliteViewController.xib */; };
+		1BD358B21A5515DA0039443D /* WIAppKVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BBCDDE61A52CB3800B6D714 /* WIAppKVCell.xib */; };
+		1BD358B31A5515DA0039443D /* WIAppKVFormatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BBCDDE91A52CB3800B6D714 /* WIAppKVFormatViewController.xib */; };
+		1BD358B41A5515DA0039443D /* WIAppFileSystemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B184A2C1A4E7FD900BF8DF9 /* WIAppFileSystemViewController.xib */; };
+		1BD358B51A5515DA0039443D /* WIAppFileSystemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8B8D01A53CD9200844BF0 /* WIAppFileSystemCell.xib */; };
+		1BD358B61A5515DA0039443D /* WIAppLocalNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B6210781A4C2CF000D12C0D /* WIAppLocalNotificationViewController.xib */; };
+		1BD358B71A5515DA0039443D /* WIAppLocalNotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B6210841A4C2DD400D12C0D /* WIAppLocalNotificationCell.xib */; };
+		1BD358B81A5515DA0039443D /* WIAppLocalNotificationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4F78FE1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.xib */; };
+		1BD358B91A5515DA0039443D /* WIAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B6210651A4C25BF00D12C0D /* WIAViewController.xib */; };
+		1BD358D01A552D3C0039443D /* BundleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD358CF1A552D3C0039443D /* BundleUtil.m */; };
+		1BD358D11A552F670039443D /* BundleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD358CF1A552D3C0039443D /* BundleUtil.m */; };
+		1BDDAC391A53E2CF00689A8C /* WIAppAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC381A53E2CF00689A8C /* WIAppAppearance.m */; };
+		1BDDAC3C1A53E52200689A8C /* WIAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC3B1A53E52200689A8C /* WIAppViewController.m */; };
+		1BDDAC3F1A53E56000689A8C /* WIAppGeneralTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC3E1A53E56000689A8C /* WIAppGeneralTableCell.m */; };
+		1BDDAC421A53E65B00689A8C /* WIAppKVUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC411A53E65B00689A8C /* WIAppKVUtil.m */; };
+		1BDDAC481A53E7BB00689A8C /* FS_KA_Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC451A53E7BB00689A8C /* FS_KA_Constants.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1BDDAC491A53E7BB00689A8C /* FS_KA_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC471A53E7BB00689A8C /* FS_KA_Helper.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BD358901A550FAB0039443D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B6210321A4BFAC200D12C0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BD358881A550F850039443D;
+			remoteInfo = WhatsInAppResource;
+		};
+		1BD358BA1A55162C0039443D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B6210321A4BFAC200D12C0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BD358881A550F850039443D;
+			remoteInfo = WhatsInAppResource;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B184A511A4EB1FF00BF8DF9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = resource;
+			dstSubfolderSpec = 16;
+			files = (
+				1BD358A11A55121B0039443D /* WhatsInAppResource.bundle in CopyFiles */,
+				1BD358841A550D440039443D /* libMMMarkdown-iOS.a in CopyFiles */,
+				1B184AB51A4EB29800BF8DF9 /* WhatsInApp.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD358221A54FD460039443D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B184A2A1A4E7FD900BF8DF9 /* WIAppFileSystemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppFileSystemViewController.h; sourceTree = "<group>"; };
+		1B184A2B1A4E7FD900BF8DF9 /* WIAppFileSystemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppFileSystemViewController.m; sourceTree = "<group>"; };
+		1B184A2C1A4E7FD900BF8DF9 /* WIAppFileSystemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIAppFileSystemViewController.xib; sourceTree = "<group>"; };
+		1B184A2F1A4E956100BF8DF9 /* WIAppFileSystemItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppFileSystemItem.h; sourceTree = "<group>"; };
+		1B184A301A4E956100BF8DF9 /* WIAppFileSystemItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppFileSystemItem.m; sourceTree = "<group>"; };
+		1B184A421A4EA5E500BF8DF9 /* WhatsInApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatsInApp.h; sourceTree = "<group>"; };
+		1B184A431A4EA5E500BF8DF9 /* WhatsInApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatsInApp.m; sourceTree = "<group>"; };
+		1B184A461A4EA61B00BF8DF9 /* WIAppLongPressTriggerGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppLongPressTriggerGestureRecognizer.h; sourceTree = "<group>"; };
+		1B184A471A4EA61B00BF8DF9 /* WIAppLongPressTriggerGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppLongPressTriggerGestureRecognizer.m; sourceTree = "<group>"; };
+		1B184A491A4EA91C00BF8DF9 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		1B184A4A1A4EA91C00BF8DF9 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		1B184A4B1A4EA91C00BF8DF9 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		1B184A4E1A4EAFF700BF8DF9 /* WIAppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WIAppMacro.h; sourceTree = "<group>"; };
+		1B184A531A4EB1FF00BF8DF9 /* libWhatsInAppLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWhatsInAppLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B184A551A4EB1FF00BF8DF9 /* WhatsInAppLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatsInAppLib.h; sourceTree = "<group>"; };
+		1B184A571A4EB1FF00BF8DF9 /* WhatsInAppLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsInAppLib.m; sourceTree = "<group>"; };
+		1B184AF71A4EDB1000BF8DF9 /* WIAppModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppModule.h; sourceTree = "<group>"; };
+		1B184AF81A4EDB1000BF8DF9 /* WIAppModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppModule.m; sourceTree = "<group>"; };
+		1B184AFA1A4EDB9F00BF8DF9 /* WIAppLocalNotificationModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppLocalNotificationModule.h; sourceTree = "<group>"; };
+		1B184AFB1A4EDB9F00BF8DF9 /* WIAppLocalNotificationModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppLocalNotificationModule.m; sourceTree = "<group>"; };
+		1B184B031A4EDF5200BF8DF9 /* WIAppUserDefaultsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppUserDefaultsModule.h; sourceTree = "<group>"; };
+		1B184B041A4EDF5200BF8DF9 /* WIAppUserDefaultsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppUserDefaultsModule.m; sourceTree = "<group>"; };
+		1B184B061A4EE0E900BF8DF9 /* WIAppKeyChainModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppKeyChainModule.h; sourceTree = "<group>"; };
+		1B184B071A4EE0E900BF8DF9 /* WIAppKeyChainModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppKeyChainModule.m; sourceTree = "<group>"; };
+		1B4F78F81A4C31B700D6C968 /* WIAppSystemUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppSystemUtil.h; sourceTree = "<group>"; };
+		1B4F78F91A4C31B700D6C968 /* WIAppSystemUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppSystemUtil.m; sourceTree = "<group>"; };
+		1B4F78FC1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppLocalNotificationDetailViewController.h; sourceTree = "<group>"; };
+		1B4F78FD1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppLocalNotificationDetailViewController.m; sourceTree = "<group>"; };
+		1B4F78FE1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIAppLocalNotificationDetailViewController.xib; sourceTree = "<group>"; };
+		1B4F791C1A4C384F00D6C968 /* WIAppPropertyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppPropertyCell.h; sourceTree = "<group>"; };
+		1B4F791D1A4C384F00D6C968 /* WIAppPropertyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppPropertyCell.m; sourceTree = "<group>"; };
+		1B4F791F1A4C385D00D6C968 /* WIAppPropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIAppPropertyCell.xib; sourceTree = "<group>"; };
+		1B4F79221A4C397000D6C968 /* WIAppConstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppConstance.h; sourceTree = "<group>"; };
+		1B4F79231A4C397000D6C968 /* WIAppConstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppConstance.m; sourceTree = "<group>"; };
+		1B4F79251A4C398A00D6C968 /* WIAppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WIAppConfig.h; sourceTree = "<group>"; };
+		1B4F792A1A4C3ECC00D6C968 /* WIAppProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppProperty.h; sourceTree = "<group>"; };
+		1B4F792B1A4C3ECC00D6C968 /* WIAppProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppProperty.m; sourceTree = "<group>"; };
+		1B4F792D1A4C3EDC00D6C968 /* WIAppModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WIAppModel.h; sourceTree = "<group>"; };
+		1B4F793F1A4C513B00D6C968 /* WIAppWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppWebViewController.h; sourceTree = "<group>"; };
+		1B4F79401A4C513B00D6C968 /* WIAppWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppWebViewController.m; sourceTree = "<group>"; };
+		1B4F79411A4C513B00D6C968 /* WIAppWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIAppWebViewController.xib; sourceTree = "<group>"; };
+		1B4F79441A4C51C900D6C968 /* WIAppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WIAppController.h; sourceTree = "<group>"; };
+		1B4F79451A4C51D900D6C968 /* WIAppView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WIAppView.h; sourceTree = "<group>"; };
+		1B5BBD3D1A518831009A0025 /* beauty_header@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "beauty_header@2x.jpg"; sourceTree = "<group>"; };
+		1B5BBD3E1A518831009A0025 /* login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login@2x.png"; sourceTree = "<group>"; };
+		1B5BBD441A519521009A0025 /* DXPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXPopover.h; sourceTree = "<group>"; };
+		1B5BBD451A519521009A0025 /* DXPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXPopover.m; sourceTree = "<group>"; };
+		1B62103A1A4BFAC200D12C0D /* WhatsInApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsInApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B62103E1A4BFAC200D12C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B62103F1A4BFAC200D12C0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B6210411A4BFAC200D12C0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B6210421A4BFAC200D12C0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B6210441A4BFAC200D12C0D /* WIAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WIAViewController.h; sourceTree = "<group>"; };
+		1B6210451A4BFAC200D12C0D /* WIAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WIAViewController.m; sourceTree = "<group>"; };
+		1B62104A1A4BFAC200D12C0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B62104D1A4BFAC200D12C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1B6210651A4C25BF00D12C0D /* WIAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIAViewController.xib; sourceTree = "<group>"; };
+		1B6210741A4C2CF000D12C0D /* WIAppLocalNotificationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppLocalNotificationCell.h; sourceTree = "<group>"; };
+		1B6210751A4C2CF000D12C0D /* WIAppLocalNotificationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppLocalNotificationCell.m; sourceTree = "<group>"; };
+		1B6210761A4C2CF000D12C0D /* WIAppLocalNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppLocalNotificationViewController.h; sourceTree = "<group>"; };
+		1B6210771A4C2CF000D12C0D /* WIAppLocalNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppLocalNotificationViewController.m; sourceTree = "<group>"; };
+		1B6210781A4C2CF000D12C0D /* WIAppLocalNotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIAppLocalNotificationViewController.xib; sourceTree = "<group>"; };
+		1B6210821A4C2D6800D12C0D /* WIAppLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WIAppLib.h; sourceTree = "<group>"; };
+		1B6210831A4C2D9B00D12C0D /* WhatsInApp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatsInApp.pch; sourceTree = "<group>"; };
+		1B6210841A4C2DD400D12C0D /* WIAppLocalNotificationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIAppLocalNotificationCell.xib; sourceTree = "<group>"; };
+		1BBCDDE41A52CB3800B6D714 /* WIAppKVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppKVCell.h; sourceTree = "<group>"; };
+		1BBCDDE51A52CB3800B6D714 /* WIAppKVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppKVCell.m; sourceTree = "<group>"; };
+		1BBCDDE61A52CB3800B6D714 /* WIAppKVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIAppKVCell.xib; sourceTree = "<group>"; };
+		1BBCDDE71A52CB3800B6D714 /* WIAppKVFormatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppKVFormatViewController.h; sourceTree = "<group>"; };
+		1BBCDDE81A52CB3800B6D714 /* WIAppKVFormatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppKVFormatViewController.m; sourceTree = "<group>"; };
+		1BBCDDE91A52CB3800B6D714 /* WIAppKVFormatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIAppKVFormatViewController.xib; sourceTree = "<group>"; };
+		1BBCDDEA1A52CB3800B6D714 /* WIAppKVModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppKVModel.h; sourceTree = "<group>"; };
+		1BBCDDEB1A52CB3800B6D714 /* WIAppKVModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppKVModel.m; sourceTree = "<group>"; };
+		1BBCDDEC1A52CB3800B6D714 /* WIAppKVViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppKVViewModel.h; sourceTree = "<group>"; };
+		1BBCDDED1A52CB3800B6D714 /* WIAppKVViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppKVViewModel.m; sourceTree = "<group>"; };
+		1BBCDDF61A52D12200B6D714 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		1BBCDDF81A52DABA00B6D714 /* document.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = document.json; sourceTree = "<group>"; };
+		1BBCDDFD1A52DE6400B6D714 /* libMMMarkdown-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMMMarkdown-iOS.a"; sourceTree = "<group>"; };
+		1BBCDDFF1A52DE6A00B6D714 /* MMMarkdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMMarkdown.h; sourceTree = "<group>"; };
+		1BBCDE031A52E10900B6D714 /* aa.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = aa.markdown; sourceTree = "<group>"; };
+		1BC8B8AA1A539D1A00844BF0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1BC8B8AC1A53A24B00844BF0 /* test.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.sqlite; sourceTree = "<group>"; };
+		1BC8B8AF1A53B85600844BF0 /* EGODatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabase.h; sourceTree = "<group>"; };
+		1BC8B8B01A53B85600844BF0 /* EGODatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabase.m; sourceTree = "<group>"; };
+		1BC8B8B11A53B85600844BF0 /* EGODatabaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseRequest.h; sourceTree = "<group>"; };
+		1BC8B8B21A53B85600844BF0 /* EGODatabaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabaseRequest.m; sourceTree = "<group>"; };
+		1BC8B8B31A53B85600844BF0 /* EGODatabaseResult_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseResult_Internal.h; sourceTree = "<group>"; };
+		1BC8B8B41A53B85600844BF0 /* EGODatabaseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseResult.h; sourceTree = "<group>"; };
+		1BC8B8B51A53B85600844BF0 /* EGODatabaseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabaseResult.m; sourceTree = "<group>"; };
+		1BC8B8B61A53B85600844BF0 /* EGODatabaseRow_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseRow_Internal.h; sourceTree = "<group>"; };
+		1BC8B8B71A53B85600844BF0 /* EGODatabaseRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseRow.h; sourceTree = "<group>"; };
+		1BC8B8B81A53B85600844BF0 /* EGODatabaseRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabaseRow.m; sourceTree = "<group>"; };
+		1BC8B8C31A53CD1E00844BF0 /* WIAppSqliteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppSqliteViewController.h; sourceTree = "<group>"; };
+		1BC8B8C41A53CD1E00844BF0 /* WIAppSqliteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppSqliteViewController.m; sourceTree = "<group>"; };
+		1BC8B8C51A53CD1E00844BF0 /* WIAppSqliteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIAppSqliteViewController.xib; sourceTree = "<group>"; };
+		1BC8B8CD1A53CD8700844BF0 /* WIAppFileSystemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppFileSystemCell.h; sourceTree = "<group>"; };
+		1BC8B8CE1A53CD8700844BF0 /* WIAppFileSystemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppFileSystemCell.m; sourceTree = "<group>"; };
+		1BC8B8D01A53CD9200844BF0 /* WIAppFileSystemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIAppFileSystemCell.xib; sourceTree = "<group>"; };
+		1BCD4B2C1A5AC2AE006BD692 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		1BCD4B2D1A5AC2AE006BD692 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1BCD4B2E1A5AC2C6006BD692 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1BCD4B2F1A5AC2D8006BD692 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1BCD4B301A5AC2D8006BD692 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1BCD4B331A5AC2F9006BD692 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1BD358891A550F850039443D /* WhatsInAppResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsInAppResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD3588C1A550F850039443D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD3589E1A5511480039443D /* WhatsInAppResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WhatsInAppResource.bundle; path = "../../../../../Library/Developer/Xcode/DerivedData/WhatsInApp-dhzixzcbjotlrjfhzejokcdvinut/Build/Products/Debug-iphoneos/WhatsInAppResource.bundle"; sourceTree = "<group>"; };
+		1BD358CE1A552D3C0039443D /* BundleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleUtil.h; sourceTree = "<group>"; };
+		1BD358CF1A552D3C0039443D /* BundleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleUtil.m; sourceTree = "<group>"; };
+		1BDDAC371A53E2CF00689A8C /* WIAppAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppAppearance.h; sourceTree = "<group>"; };
+		1BDDAC381A53E2CF00689A8C /* WIAppAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppAppearance.m; sourceTree = "<group>"; };
+		1BDDAC3A1A53E52200689A8C /* WIAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppViewController.h; sourceTree = "<group>"; };
+		1BDDAC3B1A53E52200689A8C /* WIAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppViewController.m; sourceTree = "<group>"; };
+		1BDDAC3D1A53E56000689A8C /* WIAppGeneralTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppGeneralTableCell.h; sourceTree = "<group>"; };
+		1BDDAC3E1A53E56000689A8C /* WIAppGeneralTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppGeneralTableCell.m; sourceTree = "<group>"; };
+		1BDDAC401A53E65B00689A8C /* WIAppKVUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppKVUtil.h; sourceTree = "<group>"; };
+		1BDDAC411A53E65B00689A8C /* WIAppKVUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppKVUtil.m; sourceTree = "<group>"; };
+		1BDDAC441A53E7BB00689A8C /* FS_KA_Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS_KA_Constants.h; sourceTree = "<group>"; };
+		1BDDAC451A53E7BB00689A8C /* FS_KA_Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS_KA_Constants.m; sourceTree = "<group>"; };
+		1BDDAC461A53E7BB00689A8C /* FS_KA_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS_KA_Helper.h; sourceTree = "<group>"; };
+		1BDDAC471A53E7BB00689A8C /* FS_KA_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS_KA_Helper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B184A501A4EB1FF00BF8DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6210371A4BFAC200D12C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC8B8AB1A539D1A00844BF0 /* libsqlite3.dylib in Frameworks */,
+				1BBCDDFE1A52DE6400B6D714 /* libMMMarkdown-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD358861A550F850039443D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B184A411A4EA5C200BF8DF9 /* Orgnizer */ = {
+			isa = PBXGroup;
+			children = (
+				1B184A421A4EA5E500BF8DF9 /* WhatsInApp.h */,
+				1B184A431A4EA5E500BF8DF9 /* WhatsInApp.m */,
+				1B184A461A4EA61B00BF8DF9 /* WIAppLongPressTriggerGestureRecognizer.h */,
+				1B184A471A4EA61B00BF8DF9 /* WIAppLongPressTriggerGestureRecognizer.m */,
+			);
+			path = Orgnizer;
+			sourceTree = "<group>";
+		};
+		1B184A541A4EB1FF00BF8DF9 /* WhatsInAppLib */ = {
+			isa = PBXGroup;
+			children = (
+				1B184A551A4EB1FF00BF8DF9 /* WhatsInAppLib.h */,
+				1B184A571A4EB1FF00BF8DF9 /* WhatsInAppLib.m */,
+			);
+			path = WhatsInAppLib;
+			sourceTree = "<group>";
+		};
+		1B4F791B1A4C380E00D6C968 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B4F791C1A4C384F00D6C968 /* WIAppPropertyCell.h */,
+				1B4F791D1A4C384F00D6C968 /* WIAppPropertyCell.m */,
+				1B4F791F1A4C385D00D6C968 /* WIAppPropertyCell.xib */,
+				1BDDAC3D1A53E56000689A8C /* WIAppGeneralTableCell.h */,
+				1BDDAC3E1A53E56000689A8C /* WIAppGeneralTableCell.m */,
+				1B4F79451A4C51D900D6C968 /* WIAppView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B4F79211A4C394A00D6C968 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1B4F79221A4C397000D6C968 /* WIAppConstance.h */,
+				1B4F79231A4C397000D6C968 /* WIAppConstance.m */,
+				1B4F79251A4C398A00D6C968 /* WIAppConfig.h */,
+				1BDDAC371A53E2CF00689A8C /* WIAppAppearance.h */,
+				1BDDAC381A53E2CF00689A8C /* WIAppAppearance.m */,
+				1BD358CE1A552D3C0039443D /* BundleUtil.h */,
+				1BD358CF1A552D3C0039443D /* BundleUtil.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1B4F79291A4C3E6A00D6C968 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B4F792A1A4C3ECC00D6C968 /* WIAppProperty.h */,
+				1B4F792B1A4C3ECC00D6C968 /* WIAppProperty.m */,
+				1B4F792D1A4C3EDC00D6C968 /* WIAppModel.h */,
+				1B184AF71A4EDB1000BF8DF9 /* WIAppModule.h */,
+				1B184AF81A4EDB1000BF8DF9 /* WIAppModule.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B4F79341A4C504B00D6C968 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1BD3589E1A5511480039443D /* WhatsInAppResource.bundle */,
+				1BC8B8AC1A53A24B00844BF0 /* test.sqlite */,
+				1BBCDDF81A52DABA00B6D714 /* document.json */,
+				1BBCDDF61A52D12200B6D714 /* config.xml */,
+				1B5BBD3D1A518831009A0025 /* beauty_header@2x.jpg */,
+				1B5BBD3E1A518831009A0025 /* login@2x.png */,
+				1BBCDE031A52E10900B6D714 /* aa.markdown */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1B4F79391A4C50D800D6C968 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B4F793F1A4C513B00D6C968 /* WIAppWebViewController.h */,
+				1B4F79401A4C513B00D6C968 /* WIAppWebViewController.m */,
+				1B4F79411A4C513B00D6C968 /* WIAppWebViewController.xib */,
+				1BDDAC3A1A53E52200689A8C /* WIAppViewController.h */,
+				1BDDAC3B1A53E52200689A8C /* WIAppViewController.m */,
+				1B4F79441A4C51C900D6C968 /* WIAppController.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1B4F79461A4C55BF00D6C968 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				1B184B031A4EDF5200BF8DF9 /* WIAppUserDefaultsModule.h */,
+				1B184B041A4EDF5200BF8DF9 /* WIAppUserDefaultsModule.m */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		1B5BBD421A519466009A0025 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				1BDDAC431A53E79F00689A8C /* KeyChain */,
+				1BC8B8A61A5394C900844BF0 /* Sqlite */,
+				1BBCDDFC1A52DE5100B6D714 /* MMMarkdown */,
+				1B5BBD431A519521009A0025 /* DXPopover */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		1B5BBD431A519521009A0025 /* DXPopover */ = {
+			isa = PBXGroup;
+			children = (
+				1B5BBD441A519521009A0025 /* DXPopover.h */,
+				1B5BBD451A519521009A0025 /* DXPopover.m */,
+				1BCD4B2E1A5AC2C6006BD692 /* README.md */,
+			);
+			path = DXPopover;
+			sourceTree = "<group>";
+		};
+		1B6210311A4BFAC200D12C0D = {
+			isa = PBXGroup;
+			children = (
+				1BC8B8AA1A539D1A00844BF0 /* libsqlite3.dylib */,
+				1B62103C1A4BFAC200D12C0D /* WhatsInApp */,
+				1B184A541A4EB1FF00BF8DF9 /* WhatsInAppLib */,
+				1BD3588A1A550F850039443D /* WhatsInAppResource */,
+				1B62103B1A4BFAC200D12C0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B62103B1A4BFAC200D12C0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B62103A1A4BFAC200D12C0D /* WhatsInApp.app */,
+				1B184A531A4EB1FF00BF8DF9 /* libWhatsInAppLib.a */,
+				1BD358891A550F850039443D /* WhatsInAppResource.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B62103C1A4BFAC200D12C0D /* WhatsInApp */ = {
+			isa = PBXGroup;
+			children = (
+				1B184A411A4EA5C200BF8DF9 /* Orgnizer */,
+				1B4F79341A4C504B00D6C968 /* Resource */,
+				1B4F79391A4C50D800D6C968 /* Controller */,
+				1B4F791B1A4C380E00D6C968 /* View */,
+				1B4F79291A4C3E6A00D6C968 /* Model */,
+				1B4F79211A4C394A00D6C968 /* Config */,
+				1B6210731A4C2CB200D12C0D /* DHLib */,
+				1B6210671A4C26FB00D12C0D /* Modules */,
+				1B6210411A4BFAC200D12C0D /* AppDelegate.h */,
+				1B6210421A4BFAC200D12C0D /* AppDelegate.m */,
+				1B6210441A4BFAC200D12C0D /* WIAViewController.h */,
+				1B6210451A4BFAC200D12C0D /* WIAViewController.m */,
+				1B6210651A4C25BF00D12C0D /* WIAViewController.xib */,
+				1B62104A1A4BFAC200D12C0D /* Images.xcassets */,
+				1B62104C1A4BFAC200D12C0D /* LaunchScreen.xib */,
+				1B62103D1A4BFAC200D12C0D /* Supporting Files */,
+				1B184A491A4EA91C00BF8DF9 /* TestViewController.h */,
+				1B184A4A1A4EA91C00BF8DF9 /* TestViewController.m */,
+				1B184A4B1A4EA91C00BF8DF9 /* TestViewController.xib */,
+			);
+			path = WhatsInApp;
+			sourceTree = "<group>";
+		};
+		1B62103D1A4BFAC200D12C0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B62103E1A4BFAC200D12C0D /* Info.plist */,
+				1B62103F1A4BFAC200D12C0D /* main.m */,
+				1B6210831A4C2D9B00D12C0D /* WhatsInApp.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B6210671A4C26FB00D12C0D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A11571A4D507800AB7158 /* FileSystem */,
+				1B7A11561A4D507200AB7158 /* KeyChain */,
+				1B4F79461A4C55BF00D6C968 /* UserDefaults */,
+				1B6210681A4C270800D12C0D /* LocalNotification */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1B6210681A4C270800D12C0D /* LocalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				1B6210761A4C2CF000D12C0D /* WIAppLocalNotificationViewController.h */,
+				1B6210771A4C2CF000D12C0D /* WIAppLocalNotificationViewController.m */,
+				1B6210781A4C2CF000D12C0D /* WIAppLocalNotificationViewController.xib */,
+				1B6210741A4C2CF000D12C0D /* WIAppLocalNotificationCell.h */,
+				1B6210751A4C2CF000D12C0D /* WIAppLocalNotificationCell.m */,
+				1B6210841A4C2DD400D12C0D /* WIAppLocalNotificationCell.xib */,
+				1B4F78FC1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.h */,
+				1B4F78FD1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.m */,
+				1B4F78FE1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.xib */,
+				1B184AFA1A4EDB9F00BF8DF9 /* WIAppLocalNotificationModule.h */,
+				1B184AFB1A4EDB9F00BF8DF9 /* WIAppLocalNotificationModule.m */,
+			);
+			path = LocalNotification;
+			sourceTree = "<group>";
+		};
+		1B6210731A4C2CB200D12C0D /* DHLib */ = {
+			isa = PBXGroup;
+			children = (
+				1BBCDDE21A52CA8200B6D714 /* File Formats */,
+				1B5BBD421A519466009A0025 /* ThirdParty */,
+				1B184A4E1A4EAFF700BF8DF9 /* WIAppMacro.h */,
+				1B4F78F81A4C31B700D6C968 /* WIAppSystemUtil.h */,
+				1B4F78F91A4C31B700D6C968 /* WIAppSystemUtil.m */,
+				1B6210821A4C2D6800D12C0D /* WIAppLib.h */,
+			);
+			path = DHLib;
+			sourceTree = "<group>";
+		};
+		1B7A11561A4D507200AB7158 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				1B184B061A4EE0E900BF8DF9 /* WIAppKeyChainModule.h */,
+				1B184B071A4EE0E900BF8DF9 /* WIAppKeyChainModule.m */,
+			);
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
+		1B7A11571A4D507800AB7158 /* FileSystem */ = {
+			isa = PBXGroup;
+			children = (
+				1B184A2A1A4E7FD900BF8DF9 /* WIAppFileSystemViewController.h */,
+				1B184A2B1A4E7FD900BF8DF9 /* WIAppFileSystemViewController.m */,
+				1B184A2C1A4E7FD900BF8DF9 /* WIAppFileSystemViewController.xib */,
+				1B184A2F1A4E956100BF8DF9 /* WIAppFileSystemItem.h */,
+				1B184A301A4E956100BF8DF9 /* WIAppFileSystemItem.m */,
+				1BC8B8CD1A53CD8700844BF0 /* WIAppFileSystemCell.h */,
+				1BC8B8CE1A53CD8700844BF0 /* WIAppFileSystemCell.m */,
+				1BC8B8D01A53CD9200844BF0 /* WIAppFileSystemCell.xib */,
+			);
+			path = FileSystem;
+			sourceTree = "<group>";
+		};
+		1BBCDDE21A52CA8200B6D714 /* File Formats */ = {
+			isa = PBXGroup;
+			children = (
+				1BC8B8C21A53CD1E00844BF0 /* Sqlite */,
+				1BBCDDE31A52CB0000B6D714 /* KVFormat */,
+			);
+			path = "File Formats";
+			sourceTree = "<group>";
+		};
+		1BBCDDE31A52CB0000B6D714 /* KVFormat */ = {
+			isa = PBXGroup;
+			children = (
+				1BBCDDE41A52CB3800B6D714 /* WIAppKVCell.h */,
+				1BBCDDE51A52CB3800B6D714 /* WIAppKVCell.m */,
+				1BBCDDE61A52CB3800B6D714 /* WIAppKVCell.xib */,
+				1BBCDDE71A52CB3800B6D714 /* WIAppKVFormatViewController.h */,
+				1BBCDDE81A52CB3800B6D714 /* WIAppKVFormatViewController.m */,
+				1BBCDDE91A52CB3800B6D714 /* WIAppKVFormatViewController.xib */,
+				1BBCDDEA1A52CB3800B6D714 /* WIAppKVModel.h */,
+				1BBCDDEB1A52CB3800B6D714 /* WIAppKVModel.m */,
+				1BBCDDEC1A52CB3800B6D714 /* WIAppKVViewModel.h */,
+				1BBCDDED1A52CB3800B6D714 /* WIAppKVViewModel.m */,
+				1BDDAC401A53E65B00689A8C /* WIAppKVUtil.h */,
+				1BDDAC411A53E65B00689A8C /* WIAppKVUtil.m */,
+			);
+			path = KVFormat;
+			sourceTree = "<group>";
+		};
+		1BBCDDFC1A52DE5100B6D714 /* MMMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				1BBCDDFF1A52DE6A00B6D714 /* MMMarkdown.h */,
+				1BBCDDFD1A52DE6400B6D714 /* libMMMarkdown-iOS.a */,
+				1BCD4B2C1A5AC2AE006BD692 /* LICENSE.md */,
+				1BCD4B2D1A5AC2AE006BD692 /* README.md */,
+			);
+			path = MMMarkdown;
+			sourceTree = "<group>";
+		};
+		1BC8B8A61A5394C900844BF0 /* Sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				1BC8B8AF1A53B85600844BF0 /* EGODatabase.h */,
+				1BC8B8B01A53B85600844BF0 /* EGODatabase.m */,
+				1BC8B8B11A53B85600844BF0 /* EGODatabaseRequest.h */,
+				1BC8B8B21A53B85600844BF0 /* EGODatabaseRequest.m */,
+				1BC8B8B31A53B85600844BF0 /* EGODatabaseResult_Internal.h */,
+				1BC8B8B41A53B85600844BF0 /* EGODatabaseResult.h */,
+				1BC8B8B51A53B85600844BF0 /* EGODatabaseResult.m */,
+				1BC8B8B61A53B85600844BF0 /* EGODatabaseRow_Internal.h */,
+				1BC8B8B71A53B85600844BF0 /* EGODatabaseRow.h */,
+				1BC8B8B81A53B85600844BF0 /* EGODatabaseRow.m */,
+				1BCD4B2F1A5AC2D8006BD692 /* LICENSE */,
+				1BCD4B301A5AC2D8006BD692 /* README.md */,
+			);
+			name = Sqlite;
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		1BC8B8C21A53CD1E00844BF0 /* Sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				1BC8B8C31A53CD1E00844BF0 /* WIAppSqliteViewController.h */,
+				1BC8B8C41A53CD1E00844BF0 /* WIAppSqliteViewController.m */,
+				1BC8B8C51A53CD1E00844BF0 /* WIAppSqliteViewController.xib */,
+			);
+			path = Sqlite;
+			sourceTree = "<group>";
+		};
+		1BD3588A1A550F850039443D /* WhatsInAppResource */ = {
+			isa = PBXGroup;
+			children = (
+				1BD3588B1A550F850039443D /* Supporting Files */,
+			);
+			path = WhatsInAppResource;
+			sourceTree = "<group>";
+		};
+		1BD3588B1A550F850039443D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BD3588C1A550F850039443D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BDDAC431A53E79F00689A8C /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				1BDDAC441A53E7BB00689A8C /* FS_KA_Constants.h */,
+				1BDDAC451A53E7BB00689A8C /* FS_KA_Constants.m */,
+				1BDDAC461A53E7BB00689A8C /* FS_KA_Helper.h */,
+				1BDDAC471A53E7BB00689A8C /* FS_KA_Helper.m */,
+				1BCD4B331A5AC2F9006BD692 /* README.md */,
+			);
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B184A521A4EB1FF00BF8DF9 /* WhatsInAppLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B184A641A4EB1FF00BF8DF9 /* Build configuration list for PBXNativeTarget "WhatsInAppLib" */;
+			buildPhases = (
+				1B184A4F1A4EB1FF00BF8DF9 /* Sources */,
+				1B184A501A4EB1FF00BF8DF9 /* Frameworks */,
+				1B184A511A4EB1FF00BF8DF9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BD358BB1A55162C0039443D /* PBXTargetDependency */,
+			);
+			name = WhatsInAppLib;
+			productName = WhatsInAppLib;
+			productReference = 1B184A531A4EB1FF00BF8DF9 /* libWhatsInAppLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1B6210391A4BFAC200D12C0D /* WhatsInApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B62105D1A4BFAC200D12C0D /* Build configuration list for PBXNativeTarget "WhatsInApp" */;
+			buildPhases = (
+				1B6210361A4BFAC200D12C0D /* Sources */,
+				1B6210371A4BFAC200D12C0D /* Frameworks */,
+				1B6210381A4BFAC200D12C0D /* Resources */,
+				1BD358221A54FD460039443D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BD358911A550FAB0039443D /* PBXTargetDependency */,
+			);
+			name = WhatsInApp;
+			productName = WhatsInApp;
+			productReference = 1B62103A1A4BFAC200D12C0D /* WhatsInApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BD358881A550F850039443D /* WhatsInAppResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD3588D1A550F850039443D /* Build configuration list for PBXNativeTarget "WhatsInAppResource" */;
+			buildPhases = (
+				1BD358851A550F850039443D /* Sources */,
+				1BD358861A550F850039443D /* Frameworks */,
+				1BD358871A550F850039443D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsInAppResource;
+			productName = WhatsInAppResource;
+			productReference = 1BD358891A550F850039443D /* WhatsInAppResource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B6210321A4BFAC200D12C0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "DuoHuo Network Technology";
+				TargetAttributes = {
+					1B184A521A4EB1FF00BF8DF9 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1B6210391A4BFAC200D12C0D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1BD358881A550F850039443D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B6210351A4BFAC200D12C0D /* Build configuration list for PBXProject "WhatsInApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B6210311A4BFAC200D12C0D;
+			productRefGroup = 1B62103B1A4BFAC200D12C0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B6210391A4BFAC200D12C0D /* WhatsInApp */,
+				1B184A521A4EB1FF00BF8DF9 /* WhatsInAppLib */,
+				1BD358881A550F850039443D /* WhatsInAppResource */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B6210381A4BFAC200D12C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBCDE051A52E16600B6D714 /* aa.markdown in Resources */,
+				1BBCDDF91A52DABA00B6D714 /* document.json in Resources */,
+				1BD3589F1A5511480039443D /* WhatsInAppResource.bundle in Resources */,
+				1B5BBD411A518831009A0025 /* login@2x.png in Resources */,
+				1B5BBD401A518831009A0025 /* beauty_header@2x.jpg in Resources */,
+				1BBCDDF71A52D12200B6D714 /* config.xml in Resources */,
+				1BC8B8AD1A53A36100844BF0 /* test.sqlite in Resources */,
+				1B62104B1A4BFAC200D12C0D /* Images.xcassets in Resources */,
+				1B184A4D1A4EA91C00BF8DF9 /* TestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD358871A550F850039443D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD358AF1A5515DA0039443D /* WIAppPropertyCell.xib in Resources */,
+				1BD358B41A5515DA0039443D /* WIAppFileSystemViewController.xib in Resources */,
+				1BD358AE1A5515DA0039443D /* WIAppWebViewController.xib in Resources */,
+				1BD358B71A5515DA0039443D /* WIAppLocalNotificationCell.xib in Resources */,
+				1BD358B61A5515DA0039443D /* WIAppLocalNotificationViewController.xib in Resources */,
+				1BD358B81A5515DA0039443D /* WIAppLocalNotificationDetailViewController.xib in Resources */,
+				1BD358B21A5515DA0039443D /* WIAppKVCell.xib in Resources */,
+				1BD358B31A5515DA0039443D /* WIAppKVFormatViewController.xib in Resources */,
+				1BD358B51A5515DA0039443D /* WIAppFileSystemCell.xib in Resources */,
+				1BD358B91A5515DA0039443D /* WIAViewController.xib in Resources */,
+				1BD358B01A5515DA0039443D /* WIAppSqliteViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B184A4F1A4EB1FF00BF8DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD3585F1A5504F80039443D /* WhatsInApp.m in Sources */,
+				1BD358601A5504F80039443D /* WIAppLongPressTriggerGestureRecognizer.m in Sources */,
+				1BD358611A5504F80039443D /* WIAppWebViewController.m in Sources */,
+				1BD358621A5504F80039443D /* WIAppViewController.m in Sources */,
+				1BD358631A5504F80039443D /* WIAppPropertyCell.m in Sources */,
+				1BD358641A5504F80039443D /* WIAppGeneralTableCell.m in Sources */,
+				1BD358651A5504F80039443D /* WIAppProperty.m in Sources */,
+				1BD358661A5504F80039443D /* WIAppModule.m in Sources */,
+				1BD358671A5504F80039443D /* WIAppConstance.m in Sources */,
+				1BD358681A5504F80039443D /* WIAppAppearance.m in Sources */,
+				1BD358691A5504F80039443D /* WIAppSqliteViewController.m in Sources */,
+				1BD3586B1A5504F80039443D /* WIAppKVCell.m in Sources */,
+				1BD3586C1A5504F80039443D /* WIAppKVFormatViewController.m in Sources */,
+				1BD3586D1A5504F80039443D /* WIAppKVModel.m in Sources */,
+				1BD3586E1A5504F80039443D /* WIAppKVViewModel.m in Sources */,
+				1BD3586F1A5504F80039443D /* WIAppKVUtil.m in Sources */,
+				1BD358701A5504F80039443D /* FS_KA_Constants.m in Sources */,
+				1BD358711A5504F80039443D /* FS_KA_Helper.m in Sources */,
+				1BD358721A5504F80039443D /* EGODatabase.m in Sources */,
+				1BD358731A5504F80039443D /* EGODatabaseRequest.m in Sources */,
+				1BD358741A5504F80039443D /* EGODatabaseResult.m in Sources */,
+				1BD358751A5504F80039443D /* EGODatabaseRow.m in Sources */,
+				1BD358761A5504F80039443D /* DXPopover.m in Sources */,
+				1BD358771A5504F80039443D /* WIAppSystemUtil.m in Sources */,
+				1BD358781A5504F80039443D /* WIAppFileSystemViewController.m in Sources */,
+				1BD358D11A552F670039443D /* BundleUtil.m in Sources */,
+				1BD358791A5504F80039443D /* WIAppFileSystemItem.m in Sources */,
+				1BD3587A1A5504F80039443D /* WIAppFileSystemCell.m in Sources */,
+				1BD3587B1A5504F80039443D /* WIAppKeyChainModule.m in Sources */,
+				1BD3587C1A5504F80039443D /* WIAppUserDefaultsModule.m in Sources */,
+				1BD3587D1A5504F80039443D /* WIAppLocalNotificationViewController.m in Sources */,
+				1BD3587E1A5504F80039443D /* WIAppLocalNotificationCell.m in Sources */,
+				1BD3587F1A5504F80039443D /* WIAppLocalNotificationDetailViewController.m in Sources */,
+				1BD358801A5504F80039443D /* WIAppLocalNotificationModule.m in Sources */,
+				1BD358811A5504F80039443D /* WIAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6210361A4BFAC200D12C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDDAC3F1A53E56000689A8C /* WIAppGeneralTableCell.m in Sources */,
+				1B6210791A4C2CF000D12C0D /* WIAppLocalNotificationCell.m in Sources */,
+				1B4F79421A4C513B00D6C968 /* WIAppWebViewController.m in Sources */,
+				1BC8B8BA1A53B85600844BF0 /* EGODatabaseRequest.m in Sources */,
+				1B4F791E1A4C384F00D6C968 /* WIAppPropertyCell.m in Sources */,
+				1B4F78FF1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.m in Sources */,
+				1B6210461A4BFAC200D12C0D /* WIAViewController.m in Sources */,
+				1B184A311A4E956100BF8DF9 /* WIAppFileSystemItem.m in Sources */,
+				1BBCDDF21A52CB3800B6D714 /* WIAppKVModel.m in Sources */,
+				1B184A4C1A4EA91C00BF8DF9 /* TestViewController.m in Sources */,
+				1B4F78FA1A4C31B700D6C968 /* WIAppSystemUtil.m in Sources */,
+				1BC8B8B91A53B85600844BF0 /* EGODatabase.m in Sources */,
+				1BDDAC3C1A53E52200689A8C /* WIAppViewController.m in Sources */,
+				1B184AFC1A4EDB9F00BF8DF9 /* WIAppLocalNotificationModule.m in Sources */,
+				1B184A481A4EA61B00BF8DF9 /* WIAppLongPressTriggerGestureRecognizer.m in Sources */,
+				1BBCDDEE1A52CB3800B6D714 /* WIAppKVCell.m in Sources */,
+				1BBCDDF31A52CB3800B6D714 /* WIAppKVViewModel.m in Sources */,
+				1B4F79241A4C397000D6C968 /* WIAppConstance.m in Sources */,
+				1B62107A1A4C2CF000D12C0D /* WIAppLocalNotificationViewController.m in Sources */,
+				1BC8B8BB1A53B85600844BF0 /* EGODatabaseResult.m in Sources */,
+				1B5BBD461A519521009A0025 /* DXPopover.m in Sources */,
+				1B6210431A4BFAC200D12C0D /* AppDelegate.m in Sources */,
+				1BC8B8BC1A53B85600844BF0 /* EGODatabaseRow.m in Sources */,
+				1BDDAC421A53E65B00689A8C /* WIAppKVUtil.m in Sources */,
+				1BDDAC491A53E7BB00689A8C /* FS_KA_Helper.m in Sources */,
+				1BDDAC391A53E2CF00689A8C /* WIAppAppearance.m in Sources */,
+				1BDDAC481A53E7BB00689A8C /* FS_KA_Constants.m in Sources */,
+				1BD358D01A552D3C0039443D /* BundleUtil.m in Sources */,
+				1BC8B8CF1A53CD8700844BF0 /* WIAppFileSystemCell.m in Sources */,
+				1B6210401A4BFAC200D12C0D /* main.m in Sources */,
+				1B4F792C1A4C3ECC00D6C968 /* WIAppProperty.m in Sources */,
+				1B184B051A4EDF5200BF8DF9 /* WIAppUserDefaultsModule.m in Sources */,
+				1B184A2D1A4E7FD900BF8DF9 /* WIAppFileSystemViewController.m in Sources */,
+				1BBCDDF01A52CB3800B6D714 /* WIAppKVFormatViewController.m in Sources */,
+				1B184AF91A4EDB1000BF8DF9 /* WIAppModule.m in Sources */,
+				1BC8B8C91A53CD1E00844BF0 /* WIAppSqliteViewController.m in Sources */,
+				1B184A441A4EA5E500BF8DF9 /* WhatsInApp.m in Sources */,
+				1B184B081A4EE0E900BF8DF9 /* WIAppKeyChainModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD358851A550F850039443D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BD358911A550FAB0039443D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BD358881A550F850039443D /* WhatsInAppResource */;
+			targetProxy = 1BD358901A550FAB0039443D /* PBXContainerItemProxy */;
+		};
+		1BD358BB1A55162C0039443D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BD358881A550F850039443D /* WhatsInAppResource */;
+			targetProxy = 1BD358BA1A55162C0039443D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B62104C1A4BFAC200D12C0D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B62104D1A4BFAC200D12C0D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B184A651A4EB1FF00BF8DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PREFIX_HEADER = WhatsInApp/WhatsInApp.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhatsInApp/DHLib/第三方功能模块/MMMarkdown",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		1B184A661A4EB1FF00BF8DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PREFIX_HEADER = WhatsInApp/WhatsInApp.pch;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhatsInApp/DHLib/第三方功能模块/MMMarkdown",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		1B62105B1A4BFAC200D12C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B62105C1A4BFAC200D12C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B62105E1A4BFAC200D12C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PREFIX_HEADER = WhatsInApp/WhatsInApp.pch;
+				INFOPLIST_FILE = WhatsInApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhatsInApp/DHLib/ThirdParty/MMMarkdown",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B62105F1A4BFAC200D12C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PREFIX_HEADER = WhatsInApp/WhatsInApp.pch;
+				INFOPLIST_FILE = WhatsInApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhatsInApp/DHLib/ThirdParty/MMMarkdown",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1BD3588E1A550F850039443D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhatsInAppResource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1BD3588F1A550F850039443D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = WhatsInAppResource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B184A641A4EB1FF00BF8DF9 /* Build configuration list for PBXNativeTarget "WhatsInAppLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B184A651A4EB1FF00BF8DF9 /* Debug */,
+				1B184A661A4EB1FF00BF8DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B6210351A4BFAC200D12C0D /* Build configuration list for PBXProject "WhatsInApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B62105B1A4BFAC200D12C0D /* Debug */,
+				1B62105C1A4BFAC200D12C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B62105D1A4BFAC200D12C0D /* Build configuration list for PBXNativeTarget "WhatsInApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B62105E1A4BFAC200D12C0D /* Debug */,
+				1B62105F1A4BFAC200D12C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BD3588D1A550F850039443D /* Build configuration list for PBXNativeTarget "WhatsInAppResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD3588E1A550F850039443D /* Debug */,
+				1BD3588F1A550F850039443D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B6210321A4BFAC200D12C0D /* Project object */;
+}
