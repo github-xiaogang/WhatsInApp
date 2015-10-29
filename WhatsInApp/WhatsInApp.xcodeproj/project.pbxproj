@@ -13,7 +13,7 @@
 		1B184A481A4EA61B00BF8DF9 /* WIAppLongPressTriggerGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184A471A4EA61B00BF8DF9 /* WIAppLongPressTriggerGestureRecognizer.m */; };
 		1B184A4C1A4EA91C00BF8DF9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184A4A1A4EA91C00BF8DF9 /* TestViewController.m */; };
 		1B184A4D1A4EA91C00BF8DF9 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B184A4B1A4EA91C00BF8DF9 /* TestViewController.xib */; };
-		1B184AB51A4EB29800BF8DF9 /* WhatsInApp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B184A421A4EA5E500BF8DF9 /* WhatsInApp.h */; };
+		1B184AB51A4EB29800BF8DF9 /* WhatsInApp.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1B184A421A4EA5E500BF8DF9 /* WhatsInApp.h */; };
 		1B184AF91A4EDB1000BF8DF9 /* WIAppModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184AF81A4EDB1000BF8DF9 /* WIAppModule.m */; };
 		1B184AFC1A4EDB9F00BF8DF9 /* WIAppLocalNotificationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184AFB1A4EDB9F00BF8DF9 /* WIAppLocalNotificationModule.m */; };
 		1B184B051A4EDF5200BF8DF9 /* WIAppUserDefaultsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184B041A4EDF5200BF8DF9 /* WIAppUserDefaultsModule.m */; };
@@ -83,9 +83,9 @@
 		1BD3587F1A5504F80039443D /* WIAppLocalNotificationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F78FD1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.m */; };
 		1BD358801A5504F80039443D /* WIAppLocalNotificationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184AFB1A4EDB9F00BF8DF9 /* WIAppLocalNotificationModule.m */; };
 		1BD358811A5504F80039443D /* WIAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6210451A4BFAC200D12C0D /* WIAViewController.m */; };
-		1BD358841A550D440039443D /* libMMMarkdown-iOS.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BBCDDFD1A52DE6400B6D714 /* libMMMarkdown-iOS.a */; };
+		1BD358841A550D440039443D /* libMMMarkdown-iOS.a in Copy Files */ = {isa = PBXBuildFile; fileRef = 1BBCDDFD1A52DE6400B6D714 /* libMMMarkdown-iOS.a */; };
 		1BD3589F1A5511480039443D /* WhatsInAppResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BD3589E1A5511480039443D /* WhatsInAppResource.bundle */; };
-		1BD358A11A55121B0039443D /* WhatsInAppResource.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD3589E1A5511480039443D /* WhatsInAppResource.bundle */; };
+		1BD358A11A55121B0039443D /* WhatsInAppResource.bundle in Copy Files */ = {isa = PBXBuildFile; fileRef = 1BD3589E1A5511480039443D /* WhatsInAppResource.bundle */; };
 		1BD358AE1A5515DA0039443D /* WIAppWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4F79411A4C513B00D6C968 /* WIAppWebViewController.xib */; };
 		1BD358AF1A5515DA0039443D /* WIAppPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4F791F1A4C385D00D6C968 /* WIAppPropertyCell.xib */; };
 		1BD358B01A5515DA0039443D /* WIAppSqliteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8B8C51A53CD1E00844BF0 /* WIAppSqliteViewController.xib */; };
@@ -125,16 +125,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1B184A511A4EB1FF00BF8DF9 /* CopyFiles */ = {
+		1B184A511A4EB1FF00BF8DF9 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
 			dstPath = resource;
 			dstSubfolderSpec = 16;
 			files = (
-				1BD358A11A55121B0039443D /* WhatsInAppResource.bundle in CopyFiles */,
-				1BD358841A550D440039443D /* libMMMarkdown-iOS.a in CopyFiles */,
-				1B184AB51A4EB29800BF8DF9 /* WhatsInApp.h in CopyFiles */,
+				1BD358A11A55121B0039443D /* WhatsInAppResource.bundle in Copy Files */,
+				1BD358841A550D440039443D /* libMMMarkdown-iOS.a in Copy Files */,
+				1B184AB51A4EB29800BF8DF9 /* WhatsInApp.h in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1BD358221A54FD460039443D /* Embed Frameworks */ = {
@@ -645,7 +646,7 @@
 			buildPhases = (
 				1B184A4F1A4EB1FF00BF8DF9 /* Sources */,
 				1B184A501A4EB1FF00BF8DF9 /* Frameworks */,
-				1B184A511A4EB1FF00BF8DF9 /* CopyFiles */,
+				1B184A511A4EB1FF00BF8DF9 /* Copy Files */,
 			);
 			buildRules = (
 			);
