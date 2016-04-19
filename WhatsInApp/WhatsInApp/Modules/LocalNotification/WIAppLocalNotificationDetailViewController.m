@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([WIAppPropertyCell class]) bundle:[BundleUtil resourceBundle]] forCellReuseIdentifier:WIAppPropertyCellId];
+    [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([WIAppPropertyCell class]) bundle:[WIAppBundleUtil resourceBundle]] forCellReuseIdentifier:WIAppPropertyCellId];
     //console
     UIBarButtonItem * consoleItem = [[[UIBarButtonItem alloc] initWithTitle:@"console" style:UIBarButtonItemStylePlain target:self action:@selector(showInConsole)] autorelease];
     self.navigationItem.rightBarButtonItem = consoleItem;

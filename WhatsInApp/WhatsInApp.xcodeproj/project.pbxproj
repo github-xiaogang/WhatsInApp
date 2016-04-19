@@ -39,7 +39,6 @@
 		1BBCDDF31A52CB3800B6D714 /* WIAppKVViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDDED1A52CB3800B6D714 /* WIAppKVViewModel.m */; };
 		1BBCDDF71A52D12200B6D714 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1BBCDDF61A52D12200B6D714 /* config.xml */; };
 		1BBCDDF91A52DABA00B6D714 /* document.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BBCDDF81A52DABA00B6D714 /* document.json */; };
-		1BBCDDFE1A52DE6400B6D714 /* libMMMarkdown-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBCDDFD1A52DE6400B6D714 /* libMMMarkdown-iOS.a */; };
 		1BBCDE051A52E16600B6D714 /* aa.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 1BBCDE031A52E10900B6D714 /* aa.markdown */; };
 		1BC8B8AB1A539D1A00844BF0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC8B8AA1A539D1A00844BF0 /* libsqlite3.dylib */; };
 		1BC8B8AD1A53A36100844BF0 /* test.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8B8AC1A53A24B00844BF0 /* test.sqlite */; };
@@ -83,9 +82,6 @@
 		1BD3587F1A5504F80039443D /* WIAppLocalNotificationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F78FD1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.m */; };
 		1BD358801A5504F80039443D /* WIAppLocalNotificationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B184AFB1A4EDB9F00BF8DF9 /* WIAppLocalNotificationModule.m */; };
 		1BD358811A5504F80039443D /* WIAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6210451A4BFAC200D12C0D /* WIAViewController.m */; };
-		1BD358841A550D440039443D /* libMMMarkdown-iOS.a in Copy Files */ = {isa = PBXBuildFile; fileRef = 1BBCDDFD1A52DE6400B6D714 /* libMMMarkdown-iOS.a */; };
-		1BD3589F1A5511480039443D /* WhatsInAppResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BD3589E1A5511480039443D /* WhatsInAppResource.bundle */; };
-		1BD358A11A55121B0039443D /* WhatsInAppResource.bundle in Copy Files */ = {isa = PBXBuildFile; fileRef = 1BD3589E1A5511480039443D /* WhatsInAppResource.bundle */; };
 		1BD358AE1A5515DA0039443D /* WIAppWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4F79411A4C513B00D6C968 /* WIAppWebViewController.xib */; };
 		1BD358AF1A5515DA0039443D /* WIAppPropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4F791F1A4C385D00D6C968 /* WIAppPropertyCell.xib */; };
 		1BD358B01A5515DA0039443D /* WIAppSqliteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8B8C51A53CD1E00844BF0 /* WIAppSqliteViewController.xib */; };
@@ -97,25 +93,30 @@
 		1BD358B71A5515DA0039443D /* WIAppLocalNotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B6210841A4C2DD400D12C0D /* WIAppLocalNotificationCell.xib */; };
 		1BD358B81A5515DA0039443D /* WIAppLocalNotificationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4F78FE1A4C326B00D6C968 /* WIAppLocalNotificationDetailViewController.xib */; };
 		1BD358B91A5515DA0039443D /* WIAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B6210651A4C25BF00D12C0D /* WIAViewController.xib */; };
-		1BD358D01A552D3C0039443D /* BundleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD358CF1A552D3C0039443D /* BundleUtil.m */; };
-		1BD358D11A552F670039443D /* BundleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD358CF1A552D3C0039443D /* BundleUtil.m */; };
+		1BD358D01A552D3C0039443D /* WIAppBundleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD358CF1A552D3C0039443D /* WIAppBundleUtil.m */; };
+		1BD358D11A552F670039443D /* WIAppBundleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD358CF1A552D3C0039443D /* WIAppBundleUtil.m */; };
 		1BDDAC391A53E2CF00689A8C /* WIAppAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC381A53E2CF00689A8C /* WIAppAppearance.m */; };
 		1BDDAC3C1A53E52200689A8C /* WIAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC3B1A53E52200689A8C /* WIAppViewController.m */; };
 		1BDDAC3F1A53E56000689A8C /* WIAppGeneralTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC3E1A53E56000689A8C /* WIAppGeneralTableCell.m */; };
 		1BDDAC421A53E65B00689A8C /* WIAppKVUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC411A53E65B00689A8C /* WIAppKVUtil.m */; };
 		1BDDAC481A53E7BB00689A8C /* FS_KA_Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC451A53E7BB00689A8C /* FS_KA_Constants.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		1BDDAC491A53E7BB00689A8C /* FS_KA_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDAC471A53E7BB00689A8C /* FS_KA_Helper.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1FEE90701CC67616008E867F /* MMMarkdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEE906F1CC67616008E867F /* MMMarkdown.framework */; };
+		1FEE90771CC679AE008E867F /* WhatsInAppResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BD358891A550F850039443D /* WhatsInAppResource.bundle */; };
+		1FEE90781CC679EE008E867F /* MMMarkdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEE906F1CC67616008E867F /* MMMarkdown.framework */; };
+		1FEE90791CC67A80008E867F /* MMMarkdown.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEE906F1CC67616008E867F /* MMMarkdown.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1FEE907A1CC67AC2008E867F /* WhatsInAppResource.bundle in Copy Files */ = {isa = PBXBuildFile; fileRef = 1BD358891A550F850039443D /* WhatsInAppResource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1BD358901A550FAB0039443D /* PBXContainerItemProxy */ = {
+		1BD358BA1A55162C0039443D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B6210321A4BFAC200D12C0D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1BD358881A550F850039443D;
 			remoteInfo = WhatsInAppResource;
 		};
-		1BD358BA1A55162C0039443D /* PBXContainerItemProxy */ = {
+		1FEE90711CC6795F008E867F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B6210321A4BFAC200D12C0D /* Project object */;
 			proxyType = 1;
@@ -131,8 +132,7 @@
 			dstPath = resource;
 			dstSubfolderSpec = 16;
 			files = (
-				1BD358A11A55121B0039443D /* WhatsInAppResource.bundle in Copy Files */,
-				1BD358841A550D440039443D /* libMMMarkdown-iOS.a in Copy Files */,
+				1FEE907A1CC67AC2008E867F /* WhatsInAppResource.bundle in Copy Files */,
 				1B184AB51A4EB29800BF8DF9 /* WhatsInApp.h in Copy Files */,
 			);
 			name = "Copy Files";
@@ -144,6 +144,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				1FEE90791CC67A80008E867F /* MMMarkdown.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,8 +229,6 @@
 		1BBCDDED1A52CB3800B6D714 /* WIAppKVViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppKVViewModel.m; sourceTree = "<group>"; };
 		1BBCDDF61A52D12200B6D714 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
 		1BBCDDF81A52DABA00B6D714 /* document.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = document.json; sourceTree = "<group>"; };
-		1BBCDDFD1A52DE6400B6D714 /* libMMMarkdown-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMMMarkdown-iOS.a"; sourceTree = "<group>"; };
-		1BBCDDFF1A52DE6A00B6D714 /* MMMarkdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMMarkdown.h; sourceTree = "<group>"; };
 		1BBCDE031A52E10900B6D714 /* aa.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = aa.markdown; sourceTree = "<group>"; };
 		1BC8B8AA1A539D1A00844BF0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		1BC8B8AC1A53A24B00844BF0 /* test.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.sqlite; sourceTree = "<group>"; };
@@ -249,8 +248,6 @@
 		1BC8B8CD1A53CD8700844BF0 /* WIAppFileSystemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppFileSystemCell.h; sourceTree = "<group>"; };
 		1BC8B8CE1A53CD8700844BF0 /* WIAppFileSystemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppFileSystemCell.m; sourceTree = "<group>"; };
 		1BC8B8D01A53CD9200844BF0 /* WIAppFileSystemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIAppFileSystemCell.xib; sourceTree = "<group>"; };
-		1BCD4B2C1A5AC2AE006BD692 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		1BCD4B2D1A5AC2AE006BD692 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1BCD4B2E1A5AC2C6006BD692 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1BCD4B2F1A5AC2D8006BD692 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1BCD4B301A5AC2D8006BD692 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -258,8 +255,8 @@
 		1BD358891A550F850039443D /* WhatsInAppResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsInAppResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD3588C1A550F850039443D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BD3589E1A5511480039443D /* WhatsInAppResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WhatsInAppResource.bundle; path = "../../../../../Library/Developer/Xcode/DerivedData/WhatsInApp-dhzixzcbjotlrjfhzejokcdvinut/Build/Products/Debug-iphoneos/WhatsInAppResource.bundle"; sourceTree = "<group>"; };
-		1BD358CE1A552D3C0039443D /* BundleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleUtil.h; sourceTree = "<group>"; };
-		1BD358CF1A552D3C0039443D /* BundleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleUtil.m; sourceTree = "<group>"; };
+		1BD358CE1A552D3C0039443D /* WIAppBundleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppBundleUtil.h; sourceTree = "<group>"; };
+		1BD358CF1A552D3C0039443D /* WIAppBundleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppBundleUtil.m; sourceTree = "<group>"; };
 		1BDDAC371A53E2CF00689A8C /* WIAppAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppAppearance.h; sourceTree = "<group>"; };
 		1BDDAC381A53E2CF00689A8C /* WIAppAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIAppAppearance.m; sourceTree = "<group>"; };
 		1BDDAC3A1A53E52200689A8C /* WIAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIAppViewController.h; sourceTree = "<group>"; };
@@ -272,6 +269,7 @@
 		1BDDAC451A53E7BB00689A8C /* FS_KA_Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS_KA_Constants.m; sourceTree = "<group>"; };
 		1BDDAC461A53E7BB00689A8C /* FS_KA_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS_KA_Helper.h; sourceTree = "<group>"; };
 		1BDDAC471A53E7BB00689A8C /* FS_KA_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS_KA_Helper.m; sourceTree = "<group>"; };
+		1FEE906F1CC67616008E867F /* MMMarkdown.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MMMarkdown.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +277,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FEE90781CC679EE008E867F /* MMMarkdown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BC8B8AB1A539D1A00844BF0 /* libsqlite3.dylib in Frameworks */,
-				1BBCDDFE1A52DE6400B6D714 /* libMMMarkdown-iOS.a in Frameworks */,
+				1FEE90701CC67616008E867F /* MMMarkdown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,8 +341,8 @@
 				1B4F79251A4C398A00D6C968 /* WIAppConfig.h */,
 				1BDDAC371A53E2CF00689A8C /* WIAppAppearance.h */,
 				1BDDAC381A53E2CF00689A8C /* WIAppAppearance.m */,
-				1BD358CE1A552D3C0039443D /* BundleUtil.h */,
-				1BD358CF1A552D3C0039443D /* BundleUtil.m */,
+				1BD358CE1A552D3C0039443D /* WIAppBundleUtil.h */,
+				1BD358CF1A552D3C0039443D /* WIAppBundleUtil.m */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -420,7 +419,6 @@
 		1B6210311A4BFAC200D12C0D = {
 			isa = PBXGroup;
 			children = (
-				1BC8B8AA1A539D1A00844BF0 /* libsqlite3.dylib */,
 				1B62103C1A4BFAC200D12C0D /* WhatsInApp */,
 				1B184A541A4EB1FF00BF8DF9 /* WhatsInAppLib */,
 				1BD3588A1A550F850039443D /* WhatsInAppResource */,
@@ -506,6 +504,7 @@
 		1B6210731A4C2CB200D12C0D /* DHLib */ = {
 			isa = PBXGroup;
 			children = (
+				1BC8B8AA1A539D1A00844BF0 /* libsqlite3.dylib */,
 				1BBCDDE21A52CA8200B6D714 /* File Formats */,
 				1B5BBD421A519466009A0025 /* ThirdParty */,
 				1B184A4E1A4EAFF700BF8DF9 /* WIAppMacro.h */,
@@ -571,10 +570,7 @@
 		1BBCDDFC1A52DE5100B6D714 /* MMMarkdown */ = {
 			isa = PBXGroup;
 			children = (
-				1BBCDDFF1A52DE6A00B6D714 /* MMMarkdown.h */,
-				1BBCDDFD1A52DE6400B6D714 /* libMMMarkdown-iOS.a */,
-				1BCD4B2C1A5AC2AE006BD692 /* LICENSE.md */,
-				1BCD4B2D1A5AC2AE006BD692 /* README.md */,
+				1FEE906F1CC67616008E867F /* MMMarkdown.framework */,
 			);
 			path = MMMarkdown;
 			sourceTree = "<group>";
@@ -670,7 +666,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1BD358911A550FAB0039443D /* PBXTargetDependency */,
+				1FEE90721CC6795F008E867F /* PBXTargetDependency */,
 			);
 			name = WhatsInApp;
 			productName = WhatsInApp;
@@ -700,7 +696,7 @@
 		1B6210321A4BFAC200D12C0D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "DuoHuo Network Technology";
 				TargetAttributes = {
 					1B184A521A4EB1FF00BF8DF9 = {
@@ -741,12 +737,12 @@
 			files = (
 				1BBCDE051A52E16600B6D714 /* aa.markdown in Resources */,
 				1BBCDDF91A52DABA00B6D714 /* document.json in Resources */,
-				1BD3589F1A5511480039443D /* WhatsInAppResource.bundle in Resources */,
 				1B5BBD411A518831009A0025 /* login@2x.png in Resources */,
 				1B5BBD401A518831009A0025 /* beauty_header@2x.jpg in Resources */,
 				1BBCDDF71A52D12200B6D714 /* config.xml in Resources */,
 				1BC8B8AD1A53A36100844BF0 /* test.sqlite in Resources */,
 				1B62104B1A4BFAC200D12C0D /* Images.xcassets in Resources */,
+				1FEE90771CC679AE008E867F /* WhatsInAppResource.bundle in Resources */,
 				1B184A4D1A4EA91C00BF8DF9 /* TestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -801,7 +797,7 @@
 				1BD358761A5504F80039443D /* DXPopover.m in Sources */,
 				1BD358771A5504F80039443D /* WIAppSystemUtil.m in Sources */,
 				1BD358781A5504F80039443D /* WIAppFileSystemViewController.m in Sources */,
-				1BD358D11A552F670039443D /* BundleUtil.m in Sources */,
+				1BD358D11A552F670039443D /* WIAppBundleUtil.m in Sources */,
 				1BD358791A5504F80039443D /* WIAppFileSystemItem.m in Sources */,
 				1BD3587A1A5504F80039443D /* WIAppFileSystemCell.m in Sources */,
 				1BD3587B1A5504F80039443D /* WIAppKeyChainModule.m in Sources */,
@@ -845,7 +841,7 @@
 				1BDDAC491A53E7BB00689A8C /* FS_KA_Helper.m in Sources */,
 				1BDDAC391A53E2CF00689A8C /* WIAppAppearance.m in Sources */,
 				1BDDAC481A53E7BB00689A8C /* FS_KA_Constants.m in Sources */,
-				1BD358D01A552D3C0039443D /* BundleUtil.m in Sources */,
+				1BD358D01A552D3C0039443D /* WIAppBundleUtil.m in Sources */,
 				1BC8B8CF1A53CD8700844BF0 /* WIAppFileSystemCell.m in Sources */,
 				1B6210401A4BFAC200D12C0D /* main.m in Sources */,
 				1B4F792C1A4C3ECC00D6C968 /* WIAppProperty.m in Sources */,
@@ -869,15 +865,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1BD358911A550FAB0039443D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1BD358881A550F850039443D /* WhatsInAppResource */;
-			targetProxy = 1BD358901A550FAB0039443D /* PBXContainerItemProxy */;
-		};
 		1BD358BB1A55162C0039443D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1BD358881A550F850039443D /* WhatsInAppResource */;
 			targetProxy = 1BD358BA1A55162C0039443D /* PBXContainerItemProxy */;
+		};
+		1FEE90721CC6795F008E867F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BD358881A550F850039443D /* WhatsInAppResource */;
+			targetProxy = 1FEE90711CC6795F008E867F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -897,11 +893,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhatsInApp/DHLib/ThirdParty/MMMarkdown",
+				);
 				GCC_PREFIX_HEADER = WhatsInApp/WhatsInApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WhatsInApp/DHLib/第三方功能模块/MMMarkdown",
@@ -918,7 +919,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhatsInApp/DHLib/ThirdParty/MMMarkdown",
+				);
 				GCC_PREFIX_HEADER = WhatsInApp/WhatsInApp.pch;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WhatsInApp/DHLib/第三方功能模块/MMMarkdown",
@@ -950,6 +956,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1011,14 +1018,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhatsInApp/DHLib/ThirdParty/MMMarkdown",
+				);
 				GCC_PREFIX_HEADER = WhatsInApp/WhatsInApp.pch;
 				INFOPLIST_FILE = WhatsInApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WhatsInApp/DHLib/ThirdParty/MMMarkdown",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.duohuo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1028,14 +1040,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhatsInApp/DHLib/ThirdParty/MMMarkdown",
+				);
 				GCC_PREFIX_HEADER = WhatsInApp/WhatsInApp.pch;
 				INFOPLIST_FILE = WhatsInApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WhatsInApp/DHLib/ThirdParty/MMMarkdown",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.duohuo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1050,8 +1067,9 @@
 				);
 				INFOPLIST_FILE = WhatsInAppResource/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.duohuo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1067,7 +1085,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INFOPLIST_FILE = WhatsInAppResource/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.duohuo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

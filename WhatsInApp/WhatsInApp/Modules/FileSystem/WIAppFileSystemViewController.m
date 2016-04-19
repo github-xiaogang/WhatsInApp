@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([WIAppFileSystemCell class]) bundle:[BundleUtil resourceBundle]] forCellReuseIdentifier:WIAppFileSystemCellId];
+    [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([WIAppFileSystemCell class]) bundle:[WIAppBundleUtil resourceBundle]] forCellReuseIdentifier:WIAppFileSystemCellId];
     self.fileManager = [NSFileManager defaultManager];
     [self loadContent];
 }

@@ -29,7 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([WIAppKVCell class]) bundle:[BundleUtil resourceBundle]] forCellReuseIdentifier:WIAppKVCellId];
+    [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([WIAppKVCell class]) bundle:[WIAppBundleUtil resourceBundle]] forCellReuseIdentifier:WIAppKVCellId];
     self.cellModelList = [WIAppKVUtil constructKVModel: self.kvData];
     self.viewModelList = [self generateDisplayList: self.cellModelList];
     [self updateDisplayList];
@@ -141,7 +141,7 @@
     WIAppKVModel * parentKVModel = parentViewModel.kvModel;
     NSMutableArray * childrenViewModels = [NSMutableArray arrayWithCapacity:parentKVModel.childCount];
     NSUInteger parentViewModelIndex = [self.viewModelList indexOfObject:parentViewModel];
-    for (int i=parentViewModelIndex + 1; i<self.viewModelList.count; i++) {
+    for (NSUInteger i=parentViewModelIndex + 1; i<self.viewModelList.count; i++) {
         WIAppKVViewModel * viewModel = self.viewModelList[i];
         WIAppKVModel * kvModel = viewModel.kvModel;
         if(kvModel.level == parentKVModel.level + 1){
@@ -158,7 +158,7 @@
     WIAppKVModel * parentKVModel = parentViewModel.kvModel;
     NSMutableArray * descendantViewModels = [NSMutableArray arrayWithCapacity:parentKVModel.childCount];
     NSUInteger parentViewModelIndex = [self.viewModelList indexOfObject:parentViewModel];
-    for (int i = parentViewModelIndex + 1; i<self.viewModelList.count; i++) {
+    for (NSUInteger i = parentViewModelIndex + 1; i<self.viewModelList.count; i++) {
         WIAppKVViewModel * viewModel = self.viewModelList[i];
         WIAppKVModel * kvModel = viewModel.kvModel;
         if(kvModel.level > parentKVModel.level){

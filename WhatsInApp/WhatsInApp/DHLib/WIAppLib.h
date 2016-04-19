@@ -14,7 +14,7 @@
 #import "WIAppConfig.h"
 
 #import "DXPopover.h"
-#import "MMMarkdown.h"
+@import MMMarkdown;
 
 #import "WIAppKVUtil.h"
 #endif

@@ -88,6 +88,7 @@
         }else{
             WIAViewController * viewController = [[WIAViewController alloc] initWithXibInBundle];
             UINavigationController * navigationController = [[[UINavigationController alloc] initWithRootViewController:viewController] autorelease];
+            [navigationController.navigationBar setTranslucent:YES];
             [viewController release];
             [rootViewController presentViewController:navigationController animated:YES completion:0];
             self.whatsInAppController = navigationController;

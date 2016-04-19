@@ -37,9 +37,9 @@
     NSMutableString * mutableDesc = [NSMutableString string];
     NSString * valueDesc = nil;
     if(self.modelType == WIAppKVModelTypeArray){
-        valueDesc = [NSString stringWithFormat:@"[%d]",self.childCount];
+        valueDesc = [NSString stringWithFormat:@"[%lu]",(unsigned long)self.childCount];
     }else if(self.modelType == WIAppKVModelTypeDictionary){
-        valueDesc = [NSString stringWithFormat:@"{%d}",self.childCount];
+        valueDesc = [NSString stringWithFormat:@"{%lu}",(unsigned long)self.childCount];
     }else{
         valueDesc = [self.value description];
     }

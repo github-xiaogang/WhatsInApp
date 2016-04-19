@@ -15,7 +15,7 @@
 
 - (id)initWithXibInBundle
 {
-    self = [super initWithNibName:nil bundle:[BundleUtil resourceBundle]];
+    self = [super initWithNibName:nil bundle:[WIAppBundleUtil resourceBundle]];
     if(self){
         
     }
@@ -25,9 +25,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    if([WIAppSystemUtil isIOS7]){
-        self.automaticallyAdjustsScrollViewInsets = NO;
-    }
+    self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
 @end

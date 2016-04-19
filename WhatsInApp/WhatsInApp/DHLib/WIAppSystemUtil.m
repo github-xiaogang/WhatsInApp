@@ -78,7 +78,7 @@
 {
     UIApplication * sharedApplication = [UIApplication sharedApplication];
     NSArray * scheduledLocalNotification = [sharedApplication scheduledLocalNotifications];
-    return ([self maxLocalNotificationSize] - scheduledLocalNotification.count);
+    return ([self maxLocalNotificationSize] - (int)scheduledLocalNotification.count);
 }
 
 + (int)maxLocalNotificationSize

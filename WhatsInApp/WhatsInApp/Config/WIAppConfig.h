@@ -11,6 +11,6 @@
 
 #import "WIAppConstance.h"
 #import "WIAppAppearance.h"
-#import "BundleUtil.h"
+#import "WIAppBundleUtil.h"
 
 #endif

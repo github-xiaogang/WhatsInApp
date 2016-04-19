@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([WIAppLocalNotificationCell class]) bundle:[BundleUtil resourceBundle]] forCellReuseIdentifier:LocalNotificationCellId];
+    [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([WIAppLocalNotificationCell class]) bundle:[WIAppBundleUtil resourceBundle]] forCellReuseIdentifier:LocalNotificationCellId];
     _list = [[WIAppLocalNotificationModule loadContent] copy];
     //console
     UIBarButtonItem * consoleItem = [[[UIBarButtonItem alloc] initWithTitle:@"console" style:UIBarButtonItemStylePlain target:self action:@selector(showInConsole)] autorelease];

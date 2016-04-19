@@ -49,7 +49,7 @@ static CGFloat const PropertyCellWidth = 75.0f;
 {
     static WIAppPropertyCell * cell = nil;
     if(!cell){
-        cell = (WIAppPropertyCell *)[BundleUtil newInstance:NSStringFromClass([self class])];
+        cell = (WIAppPropertyCell *)[WIAppBundleUtil newInstance:NSStringFromClass([self class])];
     }
     [cell setData:data];
     return CGRectGetHeight(cell.bounds);

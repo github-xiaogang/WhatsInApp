@@ -36,17 +36,17 @@ NSString * const WIAppKVCellId = @"WIAppKVCellId";
     WIAppKVModel * model = viewModel.kvModel;
     if(model.modelType == WIAppKVModelTypeArray){
         if(viewModel.isUnFold){
-            indicatorTitle = [NSString stringWithFormat:@"-[%d]",model.childCount];
+            indicatorTitle = [NSString stringWithFormat:@"-[%lu]",(unsigned long)model.childCount];
         }else{
-            indicatorTitle = [NSString stringWithFormat:@"+[%d]",model.childCount];
+            indicatorTitle = [NSString stringWithFormat:@"+[%lu]",(unsigned long)model.childCount];
         }
         text = model.key;
         _indicatorButton.enabled = YES;
     }else if(model.modelType == WIAppKVModelTypeDictionary){
         if(viewModel.isUnFold){
-            indicatorTitle = [NSString stringWithFormat:@"-{%d}",model.childCount];
+            indicatorTitle = [NSString stringWithFormat:@"-{%lu}",(unsigned long)model.childCount];
         }else{
-            indicatorTitle = [NSString stringWithFormat:@"+{%d}",model.childCount];
+            indicatorTitle = [NSString stringWithFormat:@"+{%lu}",(unsigned long)model.childCount];
         }
         text = model.key;
         _indicatorButton.enabled = YES;
